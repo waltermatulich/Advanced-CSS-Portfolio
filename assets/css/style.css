@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --dark: #214848;
+    --white: white;
+    --purple: #32cd32;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--white);
+    font-family: "Roboto";
+    background-color: #3d1373;
+}
+
+.title {
+    font-size: 75px;
+    color: chartreuse;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+header {
+    padding: 15px 6% 15px 0;
+    display: flex;
+    padding-left: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--purple);
+}
+
+header span {
+    color: var(--purple);
+    background-color: var(--white);
+    margin-right: 0px;
+    font-size: 4vw;
+    line-height: 1;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color:white;
+    font-size: 1.4rem;
+}
+
+nav a:hover {
+    background-size: 100% 100%;
+    color: #E233FF;
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.hero {
+    padding: 2% 6%;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    min-height: 30vh;
+}
+
+.hero div {
+    flex: 0 0 90%;
+}
+
+.page-wrapper {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-section {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.page-section > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid var(--purple);
+    font-size: 4vw;
+    line-height: 1.1;
+}
+
+.page-section > div {
+    flex: 0 0 77%;
+}
+
+.page-section p {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 32px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item {
+    border: 5px solid var(--purple);
+    display: flex;
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50%- 1em);
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    font-size: 2rem;
+    color: white
+}
+
+.flex-item:first-child{
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.flex-item:hover {
+    background-color: black;
+    color: aqua;
+}
+
+.contact address {
+    display: flex;
+    flex-wrap: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.contact address a {
+    color: white;
+    padding: 5px;
+    font-size: 1.3rem;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    color: aqua;
+}
