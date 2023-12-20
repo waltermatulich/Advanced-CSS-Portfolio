@@ -5,14 +5,14 @@
 :root {
     --dark: #214848;
     --white: white;
-    --purple: #32cd32;
+    --limegreen: #32cd32;
 }
 
 body {
     margin: 0;
     padding: 0;
     color: var(--white);
-    font-family: "Roboto";
+    font-family:'Times New Roman', Times, serif;
     background-color: #3d1373;
 }
 
@@ -35,14 +35,15 @@ p {
 }
 
 header {
-    padding: 15px 6% 15px 0;
+    padding: 13px 3% 13px 1;
     display: flex;
-    padding-left: 40px;
+    padding-left: 30px;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color: var(--purple);
+    background-color: var(--limegreen);
+    color: #3d1373;
 }
 
 header span {
@@ -112,7 +113,7 @@ main {
     flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
-    border-right: 4px solid var(--purple);
+    border-right: 4px solid var(--limegreen);
     font-size: 4vw;
     line-height: 1.1;
 }
@@ -134,7 +135,7 @@ main {
 }
 
 .flex-item {
-    border: 5px solid var(--purple);
+    border: 5px solid #002300;
     display: flex;
     min-height: 150px;
     max-height: 150px;
