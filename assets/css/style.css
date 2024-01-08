@@ -160,20 +160,8 @@ main {
     color: aqua;
 }
 
-.contact address {
-    display: flex;
-    flex-wrap: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-}
 
-.contact address a {
-    color: white;
-    padding: 5px;
-    font-size: 1.3rem;
-    display: inline-block;
-}
+
 
 footer {
     text-align: center;
