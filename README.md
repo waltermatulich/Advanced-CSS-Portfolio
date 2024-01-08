@@ -1,9 +1,6 @@
 
 <img width="1440" alt="Screenshot 2023-12-28 at 3 51 54 AM" src="https://github.com/waltermatulich/Advanced-CSS-Portfolio/assets/152677493/a416cd9c-ebe6-4f5f-839e-3175ee5abf47">
 
-DEPLOYED APPLICATION URL⬇️:
-https://waltermatulich.github.io/Advanced-CSS-Portfolio/
-
 # Advanced-CSS-portfolio
 Module 02 Challange Berkley Coding Bootcamp
 
