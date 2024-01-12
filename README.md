@@ -2,7 +2,7 @@
 <img width="1440" alt="Screenshot 2023-12-28 at 3 51 54 AM" src="https://github.com/waltermatulich/Advanced-CSS-Portfolio/assets/152677493/a416cd9c-ebe6-4f5f-839e-3175ee5abf47">
 
 # Advanced-CSS-portfolio
-Module 02 Challange Berkley Coding Bootcamp
+Portfolio that shows previous employment as well as my first deployed project.
 
 Contents of this include 2 places in which I've worked and a repository named SEO-refactor that you will be able to take a look at through the embedded hyperinks in the HTML.
 
